@@ -1,0 +1,30 @@
+ERROR - 2021-07-17 21:00:01 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-07-17 21:00:01 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\UAS\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\UAS\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\UAS\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\UAS\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\UAS\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\UAS\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(68): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->edit('1')
+#8 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#9 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-07-17 21:45:09 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-07-17 21:45:09 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\UAS\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\UAS\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\UAS\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\UAS\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\UAS\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\UAS\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(68): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->edit('1')
+#8 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#9 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}

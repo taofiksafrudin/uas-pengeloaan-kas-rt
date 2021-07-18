@@ -1,0 +1,211 @@
+CRITICAL - 2021-07-08 06:18:45 --> syntax error, unexpected token "{", expecting ")"
+#0 C:\xampp\htdocs\UAS\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\UAS\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 06:44:13 --> Undefined variable $artikel
+#0 C:\xampp\htdocs\UAS\app\Views\artikel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\UAS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UAS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#4 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#6 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#7 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-08 07:11:37 --> Undefined variable $warga
+#0 C:\xampp\htdocs\UAS\app\Views\artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\UAS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UAS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#4 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#6 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#7 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-08 07:14:39 --> Undefined variable $warga
+#0 C:\xampp\htdocs\UAS\app\Views\artikel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\UAS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UAS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#4 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#6 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#7 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-08 07:17:18 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:17:53 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:17:58 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:19:34 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:27:31 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:30:02 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:30:22 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\page.php(22): view('artikel', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:31:50 --> compact(): Undefined variable $artikel
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): compact('artikel', 'title')
+#2 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-08 07:33:15 --> Invalid file: warga/index.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warga/index.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('warga/index', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): view('warga/index', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:34:01 --> Invalid file: warga/index.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warga/index.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('warga/index', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): view('warga/index', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:34:28 --> Invalid file: warga/index.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warga/index.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('warga/index', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): view('warga/index', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:37:53 --> Invalid file: warga/index.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warga/index.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('warga/index', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): view('warga/index', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:38:13 --> Invalid file: warga/index.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warga/index.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('warga/index', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): view('warga/index', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:38:19 --> Invalid file: warga/index.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warga/index.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('warga/index', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): view('warga/index', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-08 07:46:15 --> Invalid file: warga/index.php
+#0 C:\xampp\htdocs\UAS\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('warga/index.php')
+#1 C:\xampp\htdocs\UAS\system\Common.php(1271): CodeIgniter\View\View->render('warga/index', Array, true)
+#2 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(13): view('warga/index', Array)
+#3 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->index()
+#4 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-07-08 23:09:55 --> Column 'nik' cannot be null
+CRITICAL - 2021-07-08 23:09:55 --> Column 'nik' cannot be null
+#0 C:\xampp\htdocs\UAS\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\UAS\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\UAS\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\UAS\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\UAS\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\UAS\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\UAS\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\UAS\app\Controllers\Warga.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\UAS\system\CodeIgniter.php(928): App\Controllers\Warga->add()
+#9 C:\xampp\htdocs\UAS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#10 C:\xampp\htdocs\UAS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\UAS\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\UAS\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
